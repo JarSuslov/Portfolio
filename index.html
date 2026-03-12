@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <meta name="description" content="Personal portfolio" />
+  <link rel="icon" type="image/x-icon" href="assets/icons/Picsart_26-03-12_00-42-20-276.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-canvas" id="bgCanvas">
+    <div class="gradient-orb orb-1"></div>
+    <div class="gradient-orb orb-2"></div>
+  </div>
+  <nav class="navbar" id="navbar">
+    <div class="navbar-inner">
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero" class="nav-link active" data-section="hero">Home</a></li>
+        <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+        <li><a href="#projects" class="nav-link" data-section="projects">Products</a></li>
+        <li><a href="#techstack" class="nav-link" data-section="techstack">Stack</a></li>
+        <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <main class="main-content">
+    <section class="section hero-section" id="hero">
+      <div class="glass-card hero-card fade-in">
+        <div class="avatar-ring">
+          <img src="https://avatars.githubusercontent.com/u/149897516?v=4" class="avatar-img" alt="avatar" />
+        </div>
+        <h1 class="hero-name" id="heroName">...</h1>
+        <div class="hero-titles">
+          <h2 class="hero-title" id="heroTitle">...</h2>
+          <p class="hero-description" id="heroDescription">...</p>
+        </div>
+        <div class="hero-divider"></div>
+        <div class="social-grid" id="socialGrid">
+        </div>
+      </div>
+    </section>
+    <section class="section about-section" id="about">
+      <div class="section-heading-container fade-in">
+        <h2 class="section-title">About Me</h2>
+      </div>
+      <div class="glass-card about-card fade-in">
+        <div class="about-content">
+          <p class="about-text" id="aboutText">...</p>
+          <div class="about-highlights" id="aboutHighlights"></div>
+        </div>
+      </div>
+    </section>
+    <section class="section projects-section" id="projects">
+      <div class="section-heading-container fade-in">
+        <h2 class="section-title">Products</h2>
+        <p class="section-subtitle">Apps and tools I've built</p>
+      </div>
+      <div class="projects-grid" id="projectsGrid">
+      </div>
+    </section>
+    <section class="section techstack-section" id="techstack">
+      <div class="section-heading-container fade-in">
+        <h2 class="section-title">Tech Stack</h2>
+      </div>
+      <div class="techstack-grid" id="techstackGrid">
+      </div>
+    </section>
+    <section class="section contact-section" id="contact">
+      <div class="section-heading-container fade-in">
+        <h2 class="section-title">Contact</h2>
+      </div>
+      <div class="glass-card contact-card fade-in">
+        <h3 class="contact-heading" id="contactHeading">Let's Work Together</h3>
+        <p class="contact-text" id="contactText">...</p>
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <input type="text" id="formName" placeholder="Name" required />
+            </div>
+            <div class="form-group">
+              <input type="email" id="formEmail" placeholder="Email" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <textarea id="formMessage" rows="5" placeholder="Message..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-submit">
+            <i data-lucide="send" class="btn-icon"></i> Send
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer-inner fade-in">
+      <p>&copy; <span id="footerYear">2026</span> <span id="footerName"></span></p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

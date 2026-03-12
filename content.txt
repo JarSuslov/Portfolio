@@ -1,0 +1,44 @@
+[HERO]
+name=Yaroslav Suslov
+title=Junior Back-end Developer
+description=Junior Back-End Developer passionate about building reliable server-side applications and continuously expanding my skill set.
+
+[ABOUT]
+text=I'm an aspiring Back-End Developer focused on designing and building APIs, working with databases, and learning best practices in software architecture. I enjoy exploring different languages and frameworks to find the best tool for each task. Always eager to learn, collaborate on open-source projects, and grow as a developer. 
+
+[PROJECT_1]
+title=Aether Dashboard
+description=A real-time analytics dashboard with dynamic data visualization, dark mode, and responsive layout. Built with React and D3.js.
+link=https://example.com/aether
+github=https://github.com/username/aether-dashboard
+tags=React, D3.js, Node.js
+
+[PROJECT_2]
+title=Pulse Messenger
+description=An end-to-end encrypted messaging app with real-time sync, typing indicators, and media sharing. Designed for privacy-first communication.
+link=https://example.com/pulse
+github=https://github.com/username/pulse-messenger
+tags=TypeScript, WebSockets, Firebase
+
+[PROJECT_3]
+title=Vortex Portfolio
+description=A WebGL-powered portfolio template with particle effects, smooth scroll animations, and a modular CMS system for easy content editing.
+link=https://example.com/vortex
+github=https://github.com/username/vortex-portfolio
+tags=Three.js, GSAP, HTML/CSS
+
+[TECHSTACK]
+languages=Python, TypeScript, JavaScript, Java, C#, Go, PHP
+frameworks=Django, Flask, FastAPI, Node.js, Express, Spring, .NET Core, Laravel
+tools=Git, Docker, Linux, Postman, Nginx
+databases=PostgreSQL, MySQL, MongoDB, Redis, SQLite
+
+[SOCIAL]
+github=https://github.com/JarSuslov
+linkedin=https://www.linkedin.com/in/yaroslav-suslov-9679b4390?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
+twitter=https://x.com/yarsuslov?s=11
+email=yaroslavsuslov34@gmail.com
+
+[CONTACT]
+heading=Let's Work Together
+text=Have a project in mind or just want to say hello? I'm always open to discussing new opportunities and creative ideas.
