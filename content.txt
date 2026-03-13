@@ -7,18 +7,18 @@ description=Junior Back-End Developer passionate about building reliable server-
 text=I'm an aspiring Back-End Developer focused on designing and building APIs, working with databases, and learning best practices in software architecture. I enjoy exploring different languages and frameworks to find the best tool for each task. Always eager to learn, collaborate on open-source projects, and grow as a developer. 
 
 [PROJECT_1]
-title=Aether Dashboard
-description=A real-time analytics dashboard with dynamic data visualization, dark mode, and responsive layout. Built with React and D3.js.
-link=https://example.com/aether
-github=https://github.com/username/aether-dashboard
-tags=React, D3.js, Node.js
+title=ECommerce API
+description=A full-featured REST API for an online store with product catalog, shopping cart, order management, and JWT authentication. Supports role-based access, pagination, filtering, and request rate limiting.
+link=https://github.com/JarSuslov/e-commerce-backend
+github=https://github.com/JarSuslov/e-commerce-backend
+tags=C#, ASP.NET Core, PostgreSQL, Entity Framework Core, JWT, Docker, FluentValidation
 
 [PROJECT_2]
-title=Pulse Messenger
-description=An end-to-end encrypted messaging app with real-time sync, typing indicators, and media sharing. Designed for privacy-first communication.
-link=https://example.com/pulse
-github=https://github.com/username/pulse-messenger
-tags=TypeScript, WebSockets, Firebase
+title=TodoSaaS — Task Management API
+description=A multi-user task management REST API with role-based access control, admin panel, JWT authentication, and built-in rate limiting. Containerized with Docker Compose.
+link=https://github.com/JarSuslov/Rest-API-SaaS-server
+github=https://github.com/JarSuslov/Rest-API-SaaS-server
+tags=C#, ASP.NET Core, PostgreSQL, Entity Framework Core, JWT, Docker
 
 [PROJECT_3]
 title=Vortex Portfolio
