@@ -84,12 +84,18 @@
         if (p.link) linksHTML += `<a href="${escapeHTML(p.link)}" target="_blank" class="project-link"><i data-lucide="external-link" style="width:14px;height:14px;"></i> Live</a>`;
         if (p.github) linksHTML += `<a href="${escapeHTML(p.github)}" target="_blank" class="project-link"><i data-lucide="github" style="width:14px;height:14px;"></i> Code</a>`;
         
+        let tagsHTML = '';
+        if (p.tags) {
+          tagsHTML = '<div class="project-tags">' + p.tags.split(',').map(t => `<span class="project-tag">${escapeHTML(t.trim())}</span>`).join('') + '</div>';
+        }
+
         card.innerHTML = `
           <div class="project-icon-placeholder" style="background: ${grad}">
             <i data-lucide="box" style="color:white; width:28px; height:28px;"></i>
           </div>
           <h3 class="project-card-title">${escapeHTML(p.title || '')}</h3>
           <p class="project-card-description">${escapeHTML(p.description || '')}</p>
+          ${tagsHTML}
           <div class="project-links">${linksHTML}</div>
         `;
         projectsGrid.appendChild(card);
@@ -121,7 +127,7 @@
         const icons = { github: 'github', linkedin: 'linkedin', twitter: 'twitter', email: 'mail' };
         for (const [key, icon] of Object.entries(icons)) {
           if (data.SOCIAL[key]) {
-            const href = key === 'email' ? `mailto:${data.SOCIAL[key]}` : data.SOCIAL[key];
+            const href = key === 'email' ? `https://mail.google.com/mail/?view=cm&to=${encodeURIComponent(data.SOCIAL[key])}` : data.SOCIAL[key];
             const a = document.createElement('a');
             a.className = 'social-card fade-in';
             a.href = href;
