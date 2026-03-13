@@ -333,22 +333,6 @@ body {
   flex: 1;
 }
 
-.project-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 20px;
-}
-.project-tag {
-  padding: 4px 12px;
-  border-radius: 100px;
-  background: rgba(255,255,255,0.06);
-  border: 1px solid rgba(255,255,255,0.08);
-  font-size: 0.75rem;
-  color: var(--accent-secondary);
-  letter-spacing: 0.3px;
-}
-
 .project-links {
   display: flex;
   gap: 12px;
